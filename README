@@ -31,6 +31,9 @@ in order to have a sufficient time variation between different executions.
 
 We tested this function in Windows XP/2003, Sun Solaris and Debian/Ubuntu Linux,
 where it provided as many bits of entropy as requested by the user while keeping
-the running time relatively low.
+the running time relatively low. 
+
+This software was written based on research funded by the ERC project CODAMODA
+and is released under the New BSD License.
 
 
