@@ -37,3 +37,15 @@ This software was written based on research funded by the ERC project CODAMODA
 and is released under the New BSD License.
 
 
+USAGE EXAMPLE
+-------------
+
+$c1 =  microtime(true);
+if (isset($_GET['l']))
+   $t = secure_random_bytes($_GET['l']);
+else
+   $t = secure_random_bytes();
+$c2 = microtime(true);
+    
+echo "Token: $t<br>Execution time: " . (int)(($c2-$c1)*1000000);
+
